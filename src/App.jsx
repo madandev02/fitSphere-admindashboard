@@ -3,6 +3,7 @@ import Sidebar from "./components/layout/Sidebar";
 import Header from "./components/layout/Header";
 import Dashboard from "./components/Dashboard/Dashboard";
 
+
 function App() {
   const [sideBarCollapsed, setSideBarCollapsed] = useState(false);
   const [currenPage, setCurrentPage] = useState("dashboard");
